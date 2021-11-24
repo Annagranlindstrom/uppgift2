@@ -1,0 +1,192 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+body{
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: white;
+    color: black;
+}
+
+.backgroundImage{
+    background-image: url("img/pizzaugn.jpg");
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+}
+
+/* Fonterna */
+h1{
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    padding: 10px;
+}
+
+h2{
+    color: white;
+    font-size: 30px;
+    text-align: center;
+    padding: 10px;
+}
+
+h3{
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px;
+}
+
+p{
+    color: white;
+    font-size: 16px;
+    text-align: center;
+    padding: 10px;
+}
+
+/* Headern */
+header{
+    background-color: white;
+}
+
+.logotype{
+    max-height: 100px;
+}
+
+/* Navbar */
+ul.navbar{
+    list-style-type: none;
+    overflow: hidden;
+    background-color:black;
+    top: 15px;
+    width: 100%;
+}
+
+li.listNavbar{
+    float: left;
+    border-right: 2px solid white;
+    font-size: 20px;
+}
+
+ li.listNavbar a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 25px;
+    text-decoration: none;
+}
+
+li.listNavbar a:hover{
+    background-color:rgb(187, 76, 25);
+}
+
+/* Rutorna bakom text */
+section.box{
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.719);
+    margin-top: 30px;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 25px;
+}
+
+/* Knapp till menyn */
+.buttonMenu{
+text-align: center;
+}
+
+.buttonMenu a{
+    background-color: rgb(187, 76, 25);
+    border: none;
+    font-size: 28px;
+    color: white;
+    padding: 20px;
+    max-width: 200px;
+    text-align: center;
+    text-decoration: none;
+    position: relative;
+    top: 50px;
+}
+
+.buttonMenu a:hover{
+    background-color: rgb(189, 102, 62);
+}
+
+/* Menyn */
+table.menu{
+    color: white;
+    max-width: 1000px;
+    text-align: center;
+    padding: 25px;
+    margin: auto;
+    margin-bottom: 20px;
+}
+
+th, td {
+    padding: 15px;
+    font-size: 12px;
+    border: 1px solid white;
+  }
+
+th{
+    font-size: 18px;
+    max-height: 50px;
+    background-color: rgb(189, 102, 62);
+    text-align: center;
+}
+
+td{
+    max-height: 25px;
+    text-align: left;
+    background-color: rgba(0, 0, 0, 0.719)
+}
+
+/* Footern */
+footer{
+    font-size: 10px;
+    background-color: black;
+    color: white;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}
+
+p.footer{
+    font-size: 12px;
+    padding: 10px;
+}
+
+/* Media Queries */
+@media only screen and (max-width:600px) {
+    h1{
+        font-size: 40px;
+    }
+    
+    h2{
+        font-size: 20px;
+    }
+    
+    h3{
+        font-size: 18px;
+    }
+    
+    p{
+        font-size: 12px;
+    }
+
+    li.listNavbar{
+        font-size: 14px;
+    }
+    .buttonMenu a{
+        font-size: 20px;
+
+    }
+
+
+}
